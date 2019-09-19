@@ -17,7 +17,8 @@ Imports:
     glue,
     tibble,
     httr,
-    stringi
+    stringi,
+    dplyr
 Suggests: 
     testthat,
     covr
