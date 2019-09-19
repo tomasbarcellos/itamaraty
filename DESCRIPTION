@@ -19,4 +19,5 @@ Imports:
     httr,
     stringi
 Suggests: 
-    testthat
+    testthat,
+    covr

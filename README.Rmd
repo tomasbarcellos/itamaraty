@@ -1,0 +1,47 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+[![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+[![Travis build status](https://travis-ci.org/tomasbarcellos/itamaraty.svg?branch=master)](https://travis-ci.org/tomasbarcellos/itamaraty)
+[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/tomasbarcellos/itamaraty?branch=master&svg=true)](https://ci.appveyor.com/project/tomasbarcellos/itamaraty)
+[![Coverage status](https://codecov.io/gh/tomasbarcellos/itamaraty/branch/master/graph/badge.svg)](https://codecov.io/github/tomasbarcellos/itamaraty?branch=master)
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+# itamaraty
+
+O objetivo de `itamaraty` é baixar textos e discursos do site do itamaraty.
+
+## Installation
+
+<!-- You can install the released version of itamaraty from [CRAN](https://CRAN.R-project.org) with: -->
+
+<!-- ``` r -->
+<!-- install.packages("itamaraty") -->
+<!-- ``` -->
+
+Para instalar do Github, rode:
+
+```r
+devtools::install_github("tomasbarcellos/itamaraty")
+```
+
+
+## Exemplo
+
+Um exemplo básico é:
+
+```{r, cache = TRUE}
+library(itamaraty)
+buscar_textos("República Dominicana")
+```
+
